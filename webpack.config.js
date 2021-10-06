@@ -11,5 +11,5 @@ module.exports = {
     port: 9000
   },
   mode: 'development',
-  devtool: 'eval-cheap-source-map'
+  devtool: 'source-map'
 };

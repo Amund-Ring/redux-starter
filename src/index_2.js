@@ -1,5 +1,5 @@
 import store from './store';
-import { bugAdded, bugResolved, bugRemoved } from './actions';
+import { bugAdded, bugResolved, bugRemoved } from './store/actions';
 
 //Subscribes to the store and logs current state after actions:
 const unsubscribe = store.subscribe(() => {
